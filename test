@@ -1,0 +1,795 @@
+    1  ls
+    2  ls /home
+    3  ls
+    4  vim /etc/group
+    5  vim /etc/shadow
+    6  sudo vim /etc/shadow
+    7  sudo vim /etc/
+    8  gedit
+    9  gedit
+   10  pkill gedit
+   11  echo @DISPLAY
+   12  echo $DISPLAY
+   13  export DISPLAY=192.168.0.68:0.0
+   14  echo $DISPLAY
+   15  gedit
+   16  vim .bash_rc
+   17  echo $DISPLAY
+   18  gedit
+   19  apt-get install python
+   20  sudo apt-get install gnome
+   21  sudo reboot
+   22  ls
+   23  ls /mnt
+   24  ls /mnt/d
+   25  ls /mnt/cobd2
+   26  ls /dev/cobd2
+   27  sudo fdisk -l
+   28  ls
+   29  ls /
+   30  apt-get install locate
+   31  sudo apt-get install locate
+   32  sudo apt-get install python
+   33  sudo apt-get install subversion
+   34  sudo apt-get install git
+   35  sudo apt-get install openjdk
+   36  sudo apt-get install openjdk-7*
+   37  sudo apt-get install openjdk-7-jdk
+   38  ls
+   39  ls /
+   40  ls -l
+   41  e2fsck -f /dev/cobd1
+   42  sudo e2fsck -f /dev/cobd1
+   43  sudo e2fsck -f /dev/cobd2
+   44  sudo e2fsck -f /dev/cobd0
+   45  init 0
+   46  sudo init 0
+   47  sudo apt-get install openjdk-7-jdk 
+   48  ls
+   49  dir
+   50  history
+   51  sudo e2fsck -f /dev/cobd3
+   52  sudo init 0
+   53  sudo mkds.ext3 /dev/cobd2
+   54  sudo mkfs.ext3 /dev/cobd2
+   55  su - root
+   56  df -h
+   57  sudo apt-get install openjdk-7*
+   58  sudo apt-get update
+   59  sudo vim /etc/apt/sources.list
+   60  sudo apt-get update
+   61  exit
+   62  df
+   63  df -h
+   64  ping 192.168.0.68
+   65  ping www.163.com
+   66  sudo vim /etc/network/interfaces 
+   67  vim
+   68  gedit
+   69  echo $DISPLAY
+   70  ping www.baidu.com
+   71  ping mirror.163.com
+   72  sudo /etc/init.d/networking restart
+   73  ping mirror.163.com
+   74  wget www.163.com
+   75  cat /etc/apt/sources.list
+   76  cat /etc/apt/sources.list|grep :http
+   77  sudo apt-get update
+   78  sudo vim /etc/apt/sources.list
+   79  sudo apt-get install update
+   80  sudo apt-get update
+   81  sudo vim /etc/apt/sources.list
+   82  sudo apt-get update
+   83  ls
+   84  dir
+   85  ping mirror.163.com
+   86  ping www.baidu.com
+   87  ls
+   88  sudo apt-get update
+   89  vim /etc/apt/sources.list.163
+   90  sudo vim /etc/apt/sources.list.163
+   91  sudo cp /etc/apt/sources.list /etc/apt/sources.list.zju
+   92  sudo cp /etc/apt/sources.list.163 /etc/apt/sources.list
+   93  sudo apt-get update
+   94  sudo reboot
+   95  sudo apt-get install openjdk-7-jdk
+   96  ping http://mirrors.lifetoy.org
+   97  sudo vim /etc/apt/sources.list
+   98  sudo apt-get update
+   99  firefox
+  100  echo $DISPLAY
+  101  ping 192.168.0.68
+  102  route
+  103  sudo vim rc.local
+  104  locate rc.local
+  105  route add
+  106  route print
+  107  route add 0.0.0.0 mask 0.0.0.0 192.168.11.1
+  108  route add -net 0.0.0.0 mask 0.0.0.0 gw 192.168.11.1 dev eth1
+  109  route add -net 0.0.0.0 netmask 0.0.0.0 gw 192.168.11.1 dev eth1
+  110  sudo route add -net 0.0.0.0 netmask 0.0.0.0 gw 192.168.11.1 dev eth1
+  111  route
+  112  ping 192.168.0.68
+  113  ping mirrors.163.com
+  114  gedit
+  115  xterm
+  116  route
+  117  route delete 
+  118  vim /etc/network/interfaces 
+  119  sudo vim /etc/network/interfaces 
+  120  ifconfig
+  121  route -n
+  122  cat /etc/resolv.conf 
+  123  sudo vim /etc/resolv.conf 
+  124  sudo /etc/init.d/network restart
+  125  sudo /etc/init.d/networking restart
+  126  ping www.baidu.com
+  127  ping 192.168.0.68
+  128  cat /etc/network/interfaces
+  129  sudo vim /etc/resolv.conf 
+  130  cat /etc/resolv.conf 
+  131  sudo apt-get update
+  132  sudo apt-get upgrade
+  133  gedit
+  134  ping 192.168.0.68
+  135  ping www.baidu.com
+  136  ping 163.com
+  137  pint www.cc98.org
+  138  ping www.cc98.org
+  139  route
+  140  route del -net 192.168.11.0
+  141  sudo route del -net 192.168.11.0
+  142  route
+  143  sudo route del -net 
+  144  sudo inet_route del -net 192.168.11.0 
+  145  sudo route del -net 192.168.11.0 
+  146  route
+  147  sudp apt-get install xdm
+  148  sudo apt-get install xdm
+  149  sudo vim /etc/X11/xdm/Xservers
+  150  sudo vim /etc/X11/xdm/xdm-config 
+  151  sudo vim /etc/X11/xdm/Xaccess 
+  152  sudo vim /etc/X11/xdm/Xaccess +49
+  153  sudo vim /etc/profile
+  154  sudo reboot
+  155  gedit
+  156  ls
+  157  gedit
+  158  gnome
+  159  gnome-terminal
+  160  gnome-terminal
+  161  gedit
+  162  vim
+  163  gnome
+  164  echo $DIS*
+  165  echo $DISPLAY
+  166  gedit
+  167  k3b
+  168  sudo apt-get install k3b
+  169  xhost +
+  170  sudo xhost +
+  171  export DISPLAY=192.168.11.0:0
+  172  xterm
+  173  export DISPLAY=192.168.11.0.0
+  174  xterm
+  175  export DISPLAY=192.168.11.0:0.0
+  176  xterm
+  177  export DISPLAY=192.168.0.68:0.0
+  178  xterm
+  179  gedit
+  180  sudo apt-get install xterm
+  181  xterms&
+  182  xterm&
+  183  export DISPLAY=192.168.11.0:0
+  184  export DISPLAY=192.168.11.1:0
+  185  xterm&
+  186  gedit
+  187  export DISPLAY=192.168.11.1:0.0
+  188  gedit
+  189  ifconfig
+  190  route
+  191  cat /etc/network/interfaces
+  192  gedit
+  193  ls
+  194  sudo apt-get install openjdk-7-*
+  195  java
+  196  javac
+  197  sudo apt-get install gnome
+  198  gnome
+  199  gnome-terminal
+  200  vnc4server 
+  201  echo $PATH
+  202  gedit
+  203  echo $DISPLAY
+  204  sudo vim /etc/profile
+  205  xdmcp
+  206  sudo vim /etc/gdm/Xsession 
+  207  sudo find / -name gdm.conf | grep gdm
+  208  sudo vim /etc/init/gdm.conf 
+  209  sudo vim /etc/dbus-1/system.d/gdm.conf 
+  210  sudo vim /etc/init/gdm.conf 
+  211  sudo vim /etc/X11/xdm/xdm-config 
+  212  sudo find / -name gdm.conf | grep gdm
+  213  sudo vim /etc/init/gdm.conf 
+  214  sudo vim /etc/dbus-1/system.d/gdm.conf 
+  215  ls /tmp/mnt
+  216  ls /tmp
+  217  mkdir /tmp/mnt
+  218  mount -t cofs cofs0 /tmp/mnt
+  219  sudo mount -t cofs cofs0 /tmp/mnt
+  220  ls /tmp/mnt
+  221  ls
+  222  mkdir Lib
+  223  mkdir Study
+  224  mkdir Backup
+  225  sudo vim .bash_rc
+  226  sudo vim /etc/profile
+  227  sudo vim /etc/fstab
+  228  sudo mount -t swap swap cobd1
+  229  sudo mount -t swap  cobd1 swap
+  230  sudo swapon /dev/cobd1
+  231  df -h
+  232  gedit
+  233  echo $DISPLAY
+  234  export DISPLAY=192.168.11.1:0
+  235  gedit
+  236  sudo vim /etc/ssh/sshd_config
+  237  gedit
+  238  sudo apt-get install vnc
+  239  sudo apt-get install vnc4server 
+  240  vncserver 
+  241  vnc4server:1
+  242  vncserver:1
+  243  ls /etc/X11/
+  244  ls /etc/X11/xdm/
+  245  vi /etc/X11/xdm/xdm-config 
+  246  sudo find / -name gdm | grep gdm
+  247  ls
+  248  df -h
+  249  ls /etc/cofs*
+  250  sudo ls /etc/cofs*
+  251  route
+  252  sudo reboot
+  253  vnc4server 
+  254  sudo ls -l /tmp.X*
+  255  'ls -l /tmp.X*
+  256  startx
+  257  sudo startx
+  258  ls 
+  259  ls Backup/
+  260  ls Lib/
+  261  ls Study/
+  262  fd -h
+  263  df -h
+  264  ls .
+  265  ls -l
+  266  ls ..
+  267  ls ../..
+  268  pwd
+  269  cat /etc/fstab
+  270  ls /dev/cofs0
+  271  sudo find / -name cofs0
+  272  sudo find / -name cofs1
+  273  sudo mount -t cofs /dev/cofs0 Lib
+  274  ls
+  275  ls Lib/
+  276  ls Backup/
+  277  gnome
+  278  startx
+  279  sudo startX
+  280  sudo startx
+  281  ls -al /tmp.X11-unix
+  282  sudo ls -al /tmp.X11-unix
+  283  startkde
+  284  ls
+  285  ls -l
+  286  ls Lib/
+  287  sudo vim /etc/fstab
+  288  sudo reboot
+  289  ls /Lib
+  290  ls Lib/
+  291  ls Study
+  292  sudo vim /etc/fstab
+  293  sudo reboot
+  294  ls Lib/
+  295  vim /etc/fstab
+  296  sudo vim /etc/fstab
+  297  ls /tmp/mnt
+  298  mkdir /tmp/mnt
+  299  sudo reboot
+  300  df -h
+  301  ls
+  302  ls Lib/
+  303  ls Backup/
+  304  sudo mount -a
+  305  ls Backup/
+  306  sudo vim /etc/fstab
+  307  sudo mount -a
+  308  ls Lib/
+  309  ls /mnt
+  310  ls /mnt/d
+  311  sudo vim /etc/fstab
+  312  sudo mount -a
+  313  sudo vim /etc/fstab
+  314  sudo reboot
+  315  ls
+  316  ls Lib/
+  317  ls Backup/
+  318  sudo vim /etc/fstab
+  319  sudo mount -a
+  320  ls Lib/
+  321  sudo reboot
+  322  ls
+  323  ls Lib/
+  324  sudo vim /etc/profile
+  325  sudo reboot
+  326  ls Lib/
+  327  sudo vim /etc/profile
+  328  sudo fine / -name bashrc
+  329  sudo find / -name bashrc
+  330  sudo vim /etc/bash.bashrc 
+  331  sudo reboot
+  332  ls Lib/
+  333  sudo vim /etc/bash.bashrc 
+  334  sudo vim /etc/fstab
+  335  sudo mount -a
+  336  sudo vim /etc/fstab
+  337  sudo mount -a
+  338  ls Lib/
+  339  sudo reboot
+  340  ls Lib/
+  341  route
+  342  sudo vim /etc/resolv.conf 
+  343  sudo route del default
+  344  sudo route
+  345  route.cfg
+  346  sudo vim /etc/network/interfaces 
+  347  sudo /etc/init.d/network restart
+  348  sudo /etc/init.d/networking restart
+  349  route
+  350  ifconfig 
+  351  route -n
+  352  sudo route add -net 0.0.0.0 netmask 0.0.0.0 gw 192.168.11.1 dev eth1
+  353  route -n
+  354  sudo vim /etc/network/interfaces
+  355  sudo /etc/init.d/networking restart
+  356  route
+  357  route -n
+  358  ping www.163.com
+  359  ping 192.168.0.68
+  360  sudo reboot
+  361  ls
+  362  samba
+  363  sudo apt-get install samba
+  364  ls
+  365  ls Backup/
+  366  ping www.baidu.com
+  367  gedit
+  368  sudo apt-get install kdenetwork-filesharing 
+  369  exit
+  370  sudo cp /etc/samba/smb.conf /etc/samba/smb.conf.bk
+  371  sudo vim /etc/samba/smb.conf
+  372  sudo useradd sambaLogin
+  373  sudo userdel sambaLogin
+  374  sudo userdel sambaUsers
+  375  sudo useradd sambaUsers
+  376  sudo smbpaddwd -a sambaUsers
+  377  sudo smbpasswd -a sambaUsers
+  378  sudo vim  /etc/samba/smbusers
+  379  sudo testparm
+  380  ls
+  381  mkdir Share
+  382  sudo /etc/init.d/smbd restart
+  383  sudo vim  /etc/samba/smbusers
+  384  sudo /etc/init.d/smbd restart
+  385  sudo vim /etc/samba/smb.conf
+  386  sudo apt-get install smbfs
+  387  ls
+  388  ls -l
+  389  sudo vim /etc/samba/smb.conf
+  390  sudo /etc/init.d/smbd restart
+  391  cd Share/
+  392  touch test
+  393  exit
+  394  sudo apt-get install python
+  395  cd Share/
+  396  echo "python print "hello, world"" > VIM
+  397  cat VIM
+  398  vim VIM
+  399  +x VIM
+  400  chmod +x VIM
+  401  ./VIM
+  402  python print "Hello world"
+  403  python
+  404  ls
+  405  rm VIM
+  406  cd ..
+  407  ls
+  408  mkdir $HOME/.vim
+  409  cd $HOME/.vim
+  410  mkdir plugin
+  411  wget http://www.vim.org/scripts/download_script.php?src_id=3640
+  412  ls
+  413  rm download_script.php\?src_id\=3640 
+  414  cd ..
+  415  ls
+  416  cd home
+  417  ls
+  418  cd xuyang
+  419  ls
+  420  ls -l
+  421  sudo chmod 777 -R Share
+  422  ls -l
+  423  cp Share/minibufexpl.vim .vim/plugin/
+  424  sudo cp Share/minibufexpl.vim .vim/plugin/
+  425  ls .vim/plugin/ -l
+  426  sudo chown -R ./vim/plugin xuyang:root
+  427  sudo chown -R xuyang:root ./vim/plugin
+  428  sudo chown -R xuyang:root .vim/plugin
+  429  ls .vim/plugin/ -l
+  430  sudo chmod 771 -R .vim/plugin
+  431  ls .vim/plugin/ -l
+  432  find ~ -name vimrc
+  433  sudo find ~ -name vimrc
+  434  ls /etc/vim/vimrc
+  435  sudo vim /etc/vim/vimrc
+  436  cat .viminfo 
+  437  cp /usr/share/vim/vimrc .vimrc
+  438  cat .vimrc
+  439  vim .vimrc
+  440  cd Share/
+  441  wget http://downloads.sourceforge.net/project/vim-taglist/vim-taglist/4.5/taglist_45.zip?r=http%3A%2F%2Fsourceforge.net%2Fprojects%2Fvim-taglist%2Ffiles%2F&ts=1358169747&use_mirror=nchc
+  442  ls
+  443  rm taglist_45.zip\?r\=http\:%2F%2Fsourceforge.net%2Fprojects%2Fvim-taglist%2Ffiles%2F 
+  444  ls
+  445  tar xzvf taglist_45.zip 
+  446  ls
+  447  ls -l
+  448  sudo chown -R xuyang:root .
+  449  ls -l
+  450  tar xzvf taglist_45.zip 
+  451  zip
+  452  unzip
+  453  unzip taglist_45.zip 
+  454  ls
+  455  rm -r doc
+  456  rm -r plugin/
+  457  ls -l
+  458  rm test
+  459  sudo chown -R xuyang:root .
+  460  cd ctags-5.8
+  461  ls
+  462  cd ..
+  463  rm ctags-5.8 -r
+  464  tar xzvf ctags-5.8.tar.gz 
+  465  ls
+  466  cd ctags-5.8/
+  467  ls -l | grep d
+  468  ls
+  469  ./configure 
+  470  sudo make install
+  471  sudo apt-get install make
+  472  sudo make install
+  473  ls
+  474  cd ..
+  475  ls
+  476  unzip taglist_45.zip 
+  477  ls
+  478  cp plugin/taglist.vim .vim/plugin
+  479  cp plugin/taglist.vim ../.vim/plugin
+  480  cat doc/taglist.txt 
+  481  ls /usr/local/bin/ctags 
+  482  vim .vimrc
+  483  vim ../.vimrc
+  484  vim .vimrc
+  485  vim ../.vimrc
+  486  unzip cvim.zop
+  487  unzip cvim.zip
+  488  sudo chown -R xuyang:root .
+  489  unzip cvim.zip
+  490  ls
+  491  unzip cvim.zip -d cvim
+  492  ls
+  493  ls plugin/
+  494  cp c.vim ../.vim/plugin/
+  495  cp plugin/c.vim ../.vim/plugin/
+  496  vim hello.c
+  497  cp cvim.zip ../.vim/plugin/
+  498  unzip ../.vim/plugin/cvim.zip 
+  499  cd ../.vim/plugin/
+  500  unzip cvim.zip 
+  501  cd /home/xuyang/Share/
+  502  vim hello.c
+  503  cd -
+  504  ls
+  505  ls -l
+  506  cd c-support/
+  507  ls -l
+  508  cd templates/
+  509  ls -l
+  510  sudo chmod +x -R .
+  511  cd /home/xuyang/Share/
+  512  vim hello.c
+  513  vim ~/.vimrc
+  514  vim hello.c
+  515  ls
+  516  cat tmp.c 
+  517  vim hello.c
+  518  ls
+  519  ssh-agent
+  520  man ssh-agent
+  521  eval `ssh-agent`
+  522  ssh-add
+  523  sudo ssh-add
+  524  sudo vim /etc/ssh/ssh_config 
+  525  ssh-agent
+  526  set | grep SSH_
+  527  ps -aux | grep ssh-agent
+  528  pkill ssh-agent
+  529  ps -aux | grep ssh-agent
+  530  df -h
+  531  eval `ssh-agent`
+  532  cd ..
+  533  vim .bash_rc 
+  534  ssh-add .ssh/identity
+  535  man ssh-add
+  536  ssh-add
+  537  ls .ssh
+  538  sudo ls .ssh
+  539  mkdir .ssh
+  540  ssh-add
+  541  ls .ssh
+  542  du
+  543  du -sk*
+  544  man du
+  545  du .
+  546  cd Share/
+  547  du .
+  548  eval `ssh-agent`
+  549  jobs
+  550  ls -l
+  551  ls -lh
+  552  ip
+  553  ifconfig
+  554  dig
+  555  netstat
+  556  traceroute www.baidu.com
+  557  sudo apt-get install traceroute
+  558  man grep
+  559  man bash
+  560  xargs echo
+  561  vim hello.c
+  562  find . -name \*.c | xargs main
+  563  find . -name \*.c | xargs grep main
+  564  find . -name \*.c | xargs grep main()
+  565  find . -name \*.c | xargs grep 'main()'
+  566  cat hosts
+  567  locate hosts
+  568  cat /etc/hosts
+  569  pstree -p
+  570  man ascii
+  571  xmlstarlet
+  572  lynx
+  573  sudo apt-get install lynx
+  574  free
+  575  free -h
+  576  free -bt
+  577  free -kt
+  578  free -gt
+  579  free -mt
+  580  cat /proc/cpuinfo 
+  581  sar
+  582  sudp apt-get install sar
+  583  sudo apt-get install sar
+  584  iostat
+  585  sudo apt-get install iostat
+  586  top
+  587  ls
+  588  screen
+  589  sudo apt-get install screen
+  590  screen
+  591  sudo chmod 775 /var/run/screen
+  592  screen
+  593  screen vi test.c
+  594  la -l
+  595  vim test.c
+  596  echo $VIM
+  597  echo $VIMRUNTIME
+  598  locate vimrc_example.vim
+  599  ls /mnt/cobd2
+  600  sudo apt-get install ctags
+  601  locate ctags
+  602  vim .vimrc 
+  603  vim ./Share/hello.c 
+  604  sudo apt-get install nodejs
+  605  node
+  606  vim Share/helloworld.js
+  607  node Share/helloworld.js 
+  608  sudo apt-get install apache2
+  609  cd Share/
+  610  mkdir nodeDemo
+  611  cd nodeDemo/
+  612  ls
+  613  vim server.js
+  614  node server.js 
+  615  vim server.js
+  616  node server.js 
+  617  vim server.js
+  618  vim index.js
+  619  node index.js 
+  620  vim server.js
+  621  vim router.js
+  622  vim server.js 
+  623  vim index.js
+  624  node index.js 
+  625  vim server.js +9
+  626  node index.js 
+  627  vim  requestHandlers.js
+  628  vim server.js 
+  629  vim route
+  630  vim router.js 
+  631  vim index.js 
+  632  node index.js 
+  633  vim index.js
+  634  node index.js 
+  635  vim router.js 
+  636  node index.js 
+  637  cat router.js 
+  638  vim router.js 
+  639  cat router.js 
+  640  node index.js 
+  641  vim router.js 
+  642  vim requestHandlers.js 
+  643  vim router.js 
+  644  vim server.js 
+  645  node index.js 
+  646  vim requestHandlers.js 
+  647  node index.js 
+  648  vim requestHandlers.js 
+  649  node index.js 
+  650  vim requestHandlers.js +6
+  651  node index.js 
+  652  vim server.js 
+  653  vim router.js 
+  654  vim requestHandlers.js
+  655  vim router.js 
+  656  node index.js 
+  657  vim router.js  +11
+  658  node index.js 
+  659  vim requestHandlers.js
+  660  node index.js 
+  661  vim requestHandlers.js
+  662  node index.js 
+  663  vim server.js 
+  664  vim router.js 
+  665  vim requestHandlers.js
+  666  node index.js 
+  667  sudo apt-get install npm
+  668  npm install formidable
+  669  npm info
+  670  vim requestHandlers.js
+  671  vim index.js 
+  672  node index.js 
+  673  cd ..
+  674  ls
+  675  sudo chmod 777 . -R
+  676  ls
+  677  ls -l
+  678  sudo chmod 777 . -R
+  679  cp vim_cheat_sheet_for_programmers_print.png /tmp/test.png 
+  680  cp vim_cheat_sheet_for_programmers_print.png nodeDemo/test.png
+  681  cd nodeDemo/
+  682  node index.js 
+  683  vim requestHandlers.js
+  684  node index.js 
+  685  vim requestHandlers.js
+  686  node index.js 
+  687  vim server.js 
+  688  vim router.js 
+  689  vim server.js 
+  690  vim requestHandlers.js
+  691  node index.js 
+  692  vim requestHandlers.js +32
+  693  node index.js 
+  694  vim requestHandlers.js
+  695  node index.js 
+  696  vim requestHandlers.js +32
+  697  vim server.js
+  698  vim requestHandlers.js
+  699  node index.js 
+  700  ps -aux | grep node
+  701  pkill node
+  702  ps -aux | grep node
+  703  node index.js 
+  704  kill -9 2781
+  705  kill -9 2784
+  706  node index.js 
+  707  vim requestHandlers.js
+  708  node index.js 
+  709  mkdir upload
+  710  node index.js 
+  711  vim requestHandlers.js
+  712  node index.js 
+  713  vim requestHandlers.js
+  714  node index.js 
+  715  ls
+  716  cd ..
+  717  vim /etc/samba/smb.conf
+  718  sudo vim /etc/samba/smb.conf
+  719  sudo service smbd restart
+  720  ls -l test
+  721  ls -l test*
+  722  sudo vim /etc/samba/smb.conf
+  723  sudo service smbd restart
+  724  ls -l tt*
+  725  sudo vim /etc/samba/smb.conf
+  726  sudo service smbd restart
+  727  ls -l tt*
+  728  cp /etc/samba/smb.conf .
+  729  mkdir jsDemo
+  730  cd jsDemo/
+  731  ls
+  732  vim index.js
+  733  sudo apt-get install javascript-*
+  734  sudo apt-get install nginx
+  735  sudo apt-get install git
+  736  ls /home
+  737  git
+  738  sudo apt-get install git
+  739  sudo apt-get install nginx
+  740  sudo apt-get install git-doc
+  741  git-doc
+  742  man git
+  743  gittutor
+  744  git tutor
+  745  man git
+  746  man git 7
+  747  curl -L -k https://github.com/ossxp-com/repo/raw/master/repo > ~/bin/repo
+  748  locate bin
+  749  echo $PATH
+  750  curl -L -k https://github.com/ossxp-com/repo/raw/master/repo > /usr/local/bin/repo
+  751  sduo curl -L -k https://github.com/ossxp-com/repo/raw/master/repo > /usr/local/bin/repo
+  752  sudo curl -L -k https://github.com/ossxp-com/repo/raw/master/repo > /usr/local/bin/repo
+  753  sudo curl -L -k https://github.com/ossxp-com/repo/raw/master/repo 
+  754  ls
+  755  sudo curl -L -k https://github.com/ossxp-com/repo/raw/master/repo  > repo
+  756  echo $PATH
+  757  sudo cp repo /usr/local/bin
+  758  sudo chmod a+x /usr/local/bin
+  759  cd ..
+  760  ls -l /usr/local/bin
+  761  sudo chmod a+x /usr/local/bin/repo
+  762  ls
+  763  ls -l /usr/local/bin
+  764  cd ..
+  765  cd ~
+  766  ls
+  767  cd Share
+  768  mkdir git
+  769  cd git
+  770  mkdir blog
+  771  cd blog/\
+  772  cd blog/
+  773  git config --global user.name wangxuyang
+  774  git config --global user.email wangxuyang.666@gmail.com
+  775  ls
+  776  ls -al
+  777  vim index.html
+  778  git init
+  779  ls -al
+  780  git add .
+  781  git commit -a -m "init commit"
+  782  git remote add origin
+  783* 
+  784  git remote add origin https://github.com/wangxuyang/blog.git
+  785  git push origin master
+  786  man git pull
+  787  git pull https://github.com/wangxuyang/blog.git
+  788  git push origin master
+  789  git clone https://github.com/hzmook/hzmook.github.com.git
+  790  cd ..
+  791  mkdir wangxuyang.github.com
+  792  cd wangxuyang.github.com/
+  793  git init 
+  794  histoty
+  795  history >test
